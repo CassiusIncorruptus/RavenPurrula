@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+
+  <script 
+  src="https://www.paypal.com/sdk/js?client-id=BAAXXyr8SObdF5ruyWoWkl6jyv5QOwkw8VB2EWw-I0c3bXlKr_UZmCe2LvscQzUburimCA4dUdVURDfuIY&components=hosted-buttons&disable-funding=venmo&currency=AUD">
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #83351d;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+<title>Raven Purrula</title>
+  <link rel="icon" type="image/x-icon" href="Images\Favicon_braven.png">
+
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="index.html">Home</a>
+  <a class="active" href="index.html">Artwork</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+</div>
+
+ 
+
+<div class="content">
+   <img src="Images\Favicon_braven.png" alt="Girl in a jacket" width="10%" >
+  <h2>Artworks</h2>
+  <p>My paintings are a tribute to my family, thetraditional land owners in the Central Australian
+desert. My paintings are an aerial view of the land, and represent desert habitats. To create
+my paintings I use my own experiences and Dreamtime stories in the style by which was
+taught to me by my elders using ancient iconography in both ochre and contemporary
+colours.
+</p>
+  <p>The Bronwyn Raven Purrula 2026 collection are works that have been produced over the past few
+years. Fine details and layers of the most popular designs rich in contemporary colours.</p>
+  <h3>Current artworks that are available for purchase</h3>
+  <img src="Images\Book Cover.jpg" alt="Girl in a jacket" width="100%" >
+  
+<div id="paypal-container-UGQXTZT76FTXG"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "UGQXTZT76FTXG",
+  }).render("#paypal-container-UGQXTZT76FTXG")
+</script>
+
+   <img src="Images\Jandamara's Journey.jpg" alt="Girl in a jacket "height="40%">
+   <div id="paypal-container-CJMNZYFPS4MHN"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "CJMNZYFPS4MHN",
+  }).render("#paypal-container-CJMNZYFPS4MHN")
+</script>
+   <img src="Images\Ghetto Uprising.jpg" alt="Girl in a jacket"height="40%">
+  
+<div id="paypal-container-UTF5MX9FCKXNN"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "UTF5MX9FCKXNN",
+  }).render("#paypal-container-UTF5MX9FCKXNN")
+</script>
+</div>
+
+</body>
+</html>
